@@ -1,0 +1,54 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<!-- https://javascript.info/mouse-events-basics -->
+<body>
+
+  <h1> Let's Paint! </h1>
+
+  <div id="drawingArea">
+    <canvas id="main" width="960" height="500" style="border:1px solid #ccc;">
+      Here is my canvas.
+    </canvas>
+  </div>
+
+  <div id="controls">
+    <button id="new" class="btn btn-action">
+      <i class="far fa-file"></i>
+    </button>
+
+    <button id="erase" class="btn btn-action">
+      <i class="fas fa-eraser"></i>
+    </button>
+
+    <button id="black" class="btn btn-action" >
+      <i class="fas fa-paint-brush white"></i>
+    </button>
+    <button id="pink" class="btn btn-action" >
+      <i class="fas fa-paint-brush white"></i>
+    </button>
+    <button id="blue" class="btn btn-action">
+      <i class="fas fa-paint-brush white"></i>
+    </button>
+    <button id="yellow" class="btn btn-action">
+      <i class="fas fa-paint-brush white"></i>
+    </button>
+
+    <br>
+
+    Brush size:
+    <input id="slider" type="range" min="2" max="15" step="1" />
+    <span id="brushSize"></span>
+  </div>
+
+  <div id="log"></div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>

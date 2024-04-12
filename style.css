@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add style for pink here */
+    #pink {
+      background-color:#F50057;
+      border-color:#F50057;
+    }
+
+/* Add style for blue here */
+    #blue {
+      background-color:#2979FF;
+      border-color:#2979FF;
+    }
+
+/* Add style for yellow here */
+    #yellow {
+      background-color:#FFD600;
+      border-color:#FFD600;
+    }
+
+/* Add style for black here */
+    #black {
+      background-color:#000000;
+      border-color:#000000;
+    }
+
+    /* Add style for i.white here */
+    i.white {
+      color:white;
+    }
+
+/* Add style for div#controls here */
+
+    div#controls {
+      width:960px;
+      margin:0 auto;
+      text-align:center;
+      margin-top:20px;
+    }
+
+    /* Add style for div#drawingArea here */
+
+   div#drawingArea {
+     width:960px;
+     margin:0 auto;
+   }
+
+/* Add style for h1 here */
+   h1 {
+     font-size:34px;
+     text-align:center;
+     margin-top:60px;
+   }
